@@ -1,6 +1,6 @@
 # pagination-server
 To Paginate we just need to do simple things right down bellow.
-+ **first the client side will send us the data of currentPage and perPage in query**
++ **first the client side will send us the data of currentPage and perPage in the (query)**
 + get the currentPage from req.query.(currentPage)!
 + get the perPage form req.query.(perPage)!
 - [x] make sure that the currentPage and perPage are converted into number with ###### parseInt()
