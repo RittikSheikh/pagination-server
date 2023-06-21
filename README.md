@@ -7,5 +7,5 @@ To Paginate we just need to do simple things right down bellow.
 + count the total data of your collection with estimatedDocumentCount() or countDocuments
 + skip(currentPage * perPage) to skip the unwanted data
 + limit(perPage) to reduce rest data after skip
-+ res.send({count,result})       send count and result as an object
-Thats all you need to do for pagination in backend side
++ res.send({count,result}) send count and result as an object
+### Thats all you need to do for pagination in backend side
